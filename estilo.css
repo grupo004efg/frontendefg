@@ -13,3 +13,10 @@ header{
     font-size: 30px;
     color: white;
 }
+nav {
+    float:left;
+    width: 30%;
+    height:300px;
+    background-color: black;
+    padding: 20px;
+}
