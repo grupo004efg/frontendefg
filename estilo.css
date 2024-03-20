@@ -21,3 +21,7 @@ nav {
     padding: 20px;
 }
 
+nav ul {
+    list-style-type: nome;
+    padding: 0;
+}
