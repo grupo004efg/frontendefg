@@ -30,7 +30,7 @@ article{
     float: left;
     padding: 20px;
     width:70%;
-    background-color: darkorchid;
+    background-color: rgb(7, 0, 10);
     height: 300px;
 }
 
@@ -42,10 +42,10 @@ clear: both;
 }
 
 footer{
-background-color: blue;
+background-color: rgb(21, 195, 5);
 padding: 10px;
 text-align:center;
-color: aqua;
+color: rgb(179, 182, 182);
 
 }
 /*@media aplicar estilos especificos,para quando os
