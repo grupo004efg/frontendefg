@@ -1,0 +1,25 @@
+body{
+    font: 100% lucida sans, verdana;
+    margin: 20%;
+    line-height:  25px;
+}
+
+.container {
+    xmin-width: 900px;
+}
+
+.pacote {
+    position: relative;
+    overflow: auto;
+}
+
+#topo, #lateral, #rodape, #menuitem {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#topo {
+    background-color: brown;
+    color: blueviolet;
+    padding: 15px;
+}
