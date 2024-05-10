@@ -1,17 +1,17 @@
 const hora = document.querySelector('#hora');
 const minuto = document.querySelector('#minuto');
-const segundo = document.querySelector('#segundo')
+const segundo = document.querySelector('#segundo');
 
-setInterval(() =>{
+setInterval(() => {
     let data = new Date();
-
+    
     let horas = data.getHours();
     let minutos = data.getMinutes();
     let segundos = data.getSeconds();
-
-    hora.innerhtml = `${formatTime(horas)}`;
-    minuto.innerhtml = `${formatTime(minutos)}`;
-    segundo.innerhtml = `$({formatTime(segundos)}`;
+    
+    hora.innerHTML = `${formatTime(horas)}`;
+    minuto.innerHTML = `${formatTime(minutos)}`;
+    segundo.innerHTML = `${formatTime(segundos)}`;
 
 }, 1000);
 
