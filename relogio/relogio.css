@@ -1,0 +1,22 @@
+body {
+    background-color: darkcyan;
+}
+
+conteudo {
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   display: flex; 
+}
+
+span {
+    font-size: 50px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#hora, #minuto, #segundo {
+    background-color: #ffffff;
+}
