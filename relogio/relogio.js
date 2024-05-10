@@ -5,13 +5,13 @@ const segundo = document.querySelector('#segundo')
 setInterval(() =>{
     let data = new Date();
 
-    let hora = data.getHours();
-    let minuto = data.getMinutes();
-    let segundo = data.getSeconds();
+    let horas = data.getHours();
+    let minutos = data.getMinutes();
+    let segundos = data.getSeconds();
 
-    hora.innerhtml = '${formatTime(hora)}';
-    minuto.innerhtml = '${formatTime(minuto)}';
-    segundo.innerhtml = '$({formatTime(segundo)}';
+    hora.innerhtml = `${formatTime(horas)}`;
+    minuto.innerhtml = `${formatTime(minutos)}`;
+    segundo.innerhtml = `$({formatTime(segundos)}`;
 
 }, 1000);
 
